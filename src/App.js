@@ -1,21 +1,13 @@
-import RecipeSearch from './Compoents/SerachRecipe';
-import './styles.css'
-import React from 'react';
- import ProductList from './Compoents/Compoent2/ProductList';
-
-
+import "./styles.css";
+import React from "react";
+import ProductList from "./Components/ProductList";
 
 function App() {
-
   return (
     <div>
-    <RecipeSearch/>
-
-    <ProductList/>
-    
-   </div>
+      <ProductList />
+    </div>
   );
 }
- 
 
 export default App;
